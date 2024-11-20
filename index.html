@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grandlesmarket</title>
+    <link rel="stylesheet" href="./css/output.css" />
+    <link rel="stylesheet" href="./svg/logo.svg" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css"
+      integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header bg-[#f5f5f5]">
+      <div
+        class="container1 flex items-center justify-between pt-[11px] pb-[8px]"
+      >
+        <div class="flex items-center gap-1">
+          <a class="text-[14px] font-[400] text-[#222]" href="#"
+            >Ваш город: <span class="underline">Москва</span>
+          </a>
+          <a href="#"><i class="fa-solid fa-angle-down"></i></a>
+        </div>
+        <div
+          class="flex flex-col text-center text-[14px] font-[400] text-[#222] max-[955px]:hidden"
+        >
+          <a href="#">Москва, г. Химки, ул. Рабочая, дом 2</a>
+          <a class="text-[12px] text-[#777]" href="#"
+            >с 09:00 до 20:00 без выходных</a
+          >
+        </div>
+        <div class="flex flex-col text-center max-[680px]:hidden">
+          <div
+            class="flex items-center gap-2 text-[14px] font-[500] text-[#222]"
+          >
+            <a href="tel:+7 (495) 970-45-62">+7 (495) 970-45-62</a>
+            <p class="text-[#777]">/</p>
+            <a href="tel:+7 (915) 202-72-57">+7 (915) 202-72-57</a>
+          </div>
+          <a class="text-[12px] font-[500] underline text-[#222]" href="#"
+            >Перезвонить?</a
+          >
+        </div>
+        <div class="flex items-center gap-[10px] max-[290px]:gap-[4px]">
+          <a class="text-[14px] font-[400] max-[385px]:hidden" href="#"
+            >Связаться:</a
+          >
+          <button
+            class="border border-solid p-[6px] rounded-[50%] border-[#222]"
+          >
+            <img class="" src="./svg/telegram.svg" alt="" />
+          </button>
+          <button
+            class="border border-solid p-[6px] rounded-[50%] border-[#222]"
+          >
+            <img src="./svg/whatsapp.svg" alt="" />
+          </button>
+          <button
+            class="border border-solid p-[6px] rounded-[50%] border-[#222]"
+          >
+            <img src="./svg/whatsapp-2.svg" alt="" />
+          </button>
+        </div>
+      </div>
+    </header>
+    <!-- header end -->
+    <div class="header-nav">
+      <div class="container1">
+        <div class="flex-between py-[13px]">
+          <a class="hidden max-[1030px]:block" href="#"
+            ><img src="./svg/ calculator.svg" alt=""
+          /></a>
+          <a class="max-[1225px]:hidden" href="mailto:grandlesmarket@mail.ru"
+            >grandlesmarket@mail.ru</a
+          >
+          <input class="hidden" type="checkbox" id="check" />
+          <div
+            class="responsiv-nav flex-x-center gap-x-[81px] max-[1320px]:gap-x-[40px]"
+          >
+            <div class="flex-x-center gap-x-[50px] max-[1225px]:gap-x-40px">
+              <div class="flex-x-center gap-x-2">
+                <p><a href="#">Каталог</a></p>
+                <a href="#"><i class="fa-solid fa-angle-down"></i></a>
+              </div>
+              <div class="flex-x-center gap-x-2">
+                <p><a href="#">Покупателю</a></p>
+                <a href="#"><i class="fa-solid fa-angle-down"></i></a>
+              </div>
+            </div>
+            <div class="logo">
+              <a href="#"><img src="./svg/logo.svg" alt="logo" /></a>
+            </div>
+            <div class="flex-x-center gap-x-[50px]">
+              <div class="flex-x-center gap-x-2">
+                <p><a href="#">О компании</a></p>
+                <a href="#"><i class="fa-solid fa-angle-down"></i></a>
+              </div>
+              <p><a href="#">Контакты</a></p>
+            </div>
+            <label class="hidden max-[1030px]:block" for="check">
+              <i class="fa-solid fa-xmark absolute top-5 right-5"></i>
+            </label>
+          </div>
+          <div class="logo hidden max-[1030px]:block max-[310px]:w-[170px]">
+            <a href="#"><img src="./svg/logo.svg" alt="logo" /></a>
+          </div>
+          <div class="flex-x-center gap-x-[33px]">
+            <img
+              class="max-[435px]:hidden"
+              src="./svg/ calculator.svg"
+              alt="calculstor"
+            />
+            <img
+              class="max-[435px]:hidden"
+              src="./svg/search.svg"
+              alt="search"
+            />
+            <img src="./svg/korzina.svg" alt="" />
+          </div>
+        </div>
+        <div
+          class="max-[1500px]:hidden max-[700px]:block flex flex-col text-center max-[500px]:block mt-4 max-[1400px]:hidden"
+        >
+          <div
+            class="flex items-center justify-center gap-2 text-[14px] font-[500] text-[#222] max-[295px]:gap-1 max-[295px]:text-[13px]"
+          >
+            <a href="tel:+7 (495) 970-45-62">+7 (495) 970-45-62</a>
+            <p class="text-[#777]">/</p>
+            <a href="tel:+7 (915) 202-72-57">+7 (915) 202-72-57</a>
+          </div>
+          <a class="text-[12px] font-[500] underline text-[#222]" href="#"
+            >Перезвонить?</a
+          >
+        </div>
+        <div
+          class="max-[1500px]:hidden max-[700px]:block flex items-center gap-x-[10px] my-[30px] max-[500px]:block"
+        >
+          <label for="check">
+            <i class="fa-solid fa-bars-staggered text-[30px]"></i>
+          </label>
+          <div
+            class="bg-[#f5f5f5] flex items-center w-full justify-between pl-[37px] pr-[20px] py-[14px] rounded-[20px]"
+          >
+            <input
+              class="bg-transparent outline-none w-full"
+              type="search"
+              placeholder="Введите фразу или слово"
+            />
+            <img src="./svg/search.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- header nav end -->
+
+    <!-- wrapper start -->
+    <section class="wrapper mt-[20px]">
+      <div
+        class="container1 flex-between bg-[#f5f5f5] rounded-[15px] pl-[100px] max-[965px]:flex-col max-[440px]:px-[20px] max-[320px]:justify-center"
+      >
+        <div class="text-[#2a1a01] bg-[url('./img/wrapper-img.png')]">
+          <h1
+            class="text-[50px] text-[#2a1a01] font-[700] max-[665px]:text-[30px] max-[656px]:font-[600] max-[320px]:text-[25px] max-[320px]:text-center"
+          >
+            Интернет-магазин пиломатериалов
+          </h1>
+          <p
+            class="text-[20px] font-[600] max-w-[354px] pt-[20px] max-[320px]:w-full max-[320px]:text-center"
+          >
+            С оперативной доставкой по Москве и Московской области
+          </p>
+          <button
+            class="rounded-[8px] border border-solid px-[57px] py-[16px] mt-[80px] bg-[#ff9b04] text-[13px] font-[600] text-[#fff] max-[320px]:w-full"
+          >
+            Перейти в каталог
+          </button>
+        </div>
+        <div class="relative">
+          <img
+            class="w-[640px] h-[480px] max-[400px]:hidden"
+            src="./img/wrapper-img.png"
+            alt="wrapp"
+          />
+          <div
+            class="bg-white text-sm absolute w-[180px] rounded-[10px] top-[60px] left-2 max-[440px]:hidden"
+          >
+            <div
+              class="relative p-3 after:content-[''] after:absolute after:-right-1 after:top-1/2 after:-translate-y-1/2 after:size-2.5 after:bg-[#FF9B04] after:rounded-full after:block"
+            >
+              <p>Пиломатериалы от производителя</p>
+            </div>
+          </div>
+          <div
+            class="bg-white text-sm absolute w-[180px] rounded-[10px] top-[210px] -left-[78px] max-[440px]:hidden"
+          >
+            <div
+              class="relative p-3 after:content-[''] after:absolute after:-right-1 after:top-1/2 after:-translate-y-1/2 after:size-2.5 after:bg-[#FF9B04] after:rounded-full after:block"
+            >
+              <p>Древесина разной сортности и качества</p>
+            </div>
+          </div>
+          <div
+            class="bg-white text-sm absolute w-[180px] rounded-[10px] bottom-[60px] max-[440px]:hidden"
+          >
+            <div
+              class="relative p-3 after:content-[''] after:absolute after:-right-1 after:top-1/2 after:-translate-y-1/2 after:size-2.5 after:bg-[#FF9B04] after:rounded-full after:block"
+            >
+              <p>Широкая линейка продукции</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- wrapper end -->
+
+    <section class="Каталог продукции">
+      <div class="container1">
+        <div
+          class="flex items-end justify-between max-[750px]:flex-col max-[750px]:items-center max-[750px]:gap-3 mb-[30px]"
+        >
+          <div class="">
+            <h2
+              class="font-[700] text-[34px] text-[#2a1a0] max-[486px]:text-center max-[380px]:text-[25px]"
+            >
+              Популярные товары
+            </h2>
+            <p
+              class="font-[500] text-[16px] text-[#777] max-w-[385px] max-full max-[486px]:text-center max-[380px]:text-[15px]"
+            >
+              Выбирайте пиломатериалы, которые пользуются наибольшим спросом у
+              наших клиентов
+            </p>
+          </div>
+          <button
+            class="border border-solid border-[#222] w-[240px] py-[10px] rounded-[10px] text-[13px] font-[60px] text-[#222] hover:scale-90 hover:bg-yellow-300 hover:border-none hover:text-[#fff] hover:text-[16px]"
+          >
+            Перейти в каталог
+          </button>
+        </div>
+        <div
+          class="grid grid-cols-4 gap-4 max-[1130px]:grid max-[1130px]:grid-cols-2 max-[674px]:grid-cols-1"
+        >
+          <div class="relative">
+            <img class="w-full" src="./img/product-1.png" alt="" />
+            <div class="text1 absolute bottom-0 left-0 w-full py-3">
+              <h3 class="text-[#fff] pl-3 text-[20px]">Доска</h3>
+              <p class="text-[#fff] pl-3 text-[14px">от 13 500 ₽</p>
+            </div>
+          </div>
+          <div class="relative">
+            <img class="w-full" src="./img/product-2.png" alt="" />
+            <div class="text1 absolute bottom-0 left-0 w-full py-3">
+              <h3 class="text-[#fff] pl-3 text-[20px]">Доска</h3>
+              <p class="text-[#fff] pl-3 text-[14px">от 13 500 ₽</p>
+            </div>
+          </div>
+          <div class="relative">
+            <img class="w-full" src="./img/product-3.png" alt="" />
+            <div class="text1 absolute bottom-0 left-0 w-full py-3">
+              <h3 class="text-[#fff] pl-3 text-[20px]">Доска</h3>
+              <p class="text-[#fff] pl-3 text-[14px">от 13 500 ₽</p>
+            </div>
+          </div>
+          <div class="relative">
+            <img class="w-full" src="./img/product-4.png" alt="" />
+            <div class="text1 absolute bottom-0 left-0 w-full py-3">
+              <h3 class="text-[#fff] pl-3 text-[20px]">Доска</h3>
+              <p class="text-[#fff] pl-3 text-[14px">от 13 500 ₽</p>
+            </div>
+          </div>
+          <div class="relative">
+            <img class="w-full" src="./img/product-5.png" alt="" />
+            <div class="text1 absolute bottom-0 left-0 w-full py-3">
+              <h3 class="text-[#fff] pl-3 text-[20px]">Доска</h3>
+              <p class="text-[#fff] pl-3 text-[14px">от 13 500 ₽</p>
+            </div>
+          </div>
+          <div class="relative">
+            <img class="w-full" src="./img/product-6.png" alt="" />
+            <div class="text1 absolute bottom-0 left-0 w-full py-3">
+              <h3 class="text-[#fff] pl-3 text-[20px]">Доска</h3>
+              <p class="text-[#fff] pl-3 text-[14px">от 13 500 ₽</p>
+            </div>
+          </div>
+          <div class="relative">
+            <img class="w-full" src="./img/product-7.png" alt="" />
+            <div class="text1 absolute bottom-0 left-0 w-full py-3">
+              <h3 class="text-[#fff] pl-3 text-[20px]">Доска</h3>
+              <p class="text-[#fff] pl-3 text-[14px">от 13 500 ₽</p>
+            </div>
+          </div>
+          <div class="relative">
+            <img class="w-full" src="./img/product-8.png" alt="" />
+            <div class="text1 absolute bottom-0 left-0 w-full py-3">
+              <h3 class="text-[#fff] pl-3 text-[20px]">Доска</h3>
+              <p class="text-[#fff] pl-3 text-[14px">от 13 500 ₽</p>
+            </div>
+          </div>
+          <div class="relative">
+            <img class="w-full" src="./img/product-9.png" alt="" />
+            <div class="text1 absolute bottom-0 left-0 w-full py-3">
+              <h3 class="text-[#fff] pl-3 text-[20px]">Доска</h3>
+              <p class="text-[#fff] pl-3 text-[14px">от 13 500 ₽</p>
+            </div>
+          </div>
+          <div class="relative">
+            <img class="w-full" src="./img/product-10.png" alt="" />
+            <div class="text1 absolute bottom-0 left-0 w-full py-3">
+              <h3 class="text-[#fff] pl-3 text-[20px]">Доска</h3>
+              <p class="text-[#fff] pl-3 text-[14px">от 13 500 ₽</p>
+            </div>
+          </div>
+          <div class="relative">
+            <img class="w-full" src="./img/product-11.png" alt="" />
+            <div class="text1 absolute bottom-0 left-0 w-full py-3">
+              <h3 class="text-[#fff] pl-3 text-[20px]">Доска</h3>
+              <p class="text-[#fff] pl-3 text-[14px">от 13 500 ₽</p>
+            </div>
+          </div>
+          <div class="relative">
+            <img class="w-full" src="./img/product-12.png" alt="" />
+            <div class="text1 absolute bottom-0 left-0 w-full py-3">
+              <h3 class="text-[#fff] pl-3 text-[20px]">Доска</h3>
+              <p class="text-[#fff] pl-3 text-[14px">от 13 500 ₽</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Каталог -->
+    <section class="магазин mt-[120px]">
+      <div class="container1">
+        <div
+          class="bg-[#f5f5f5] py-[70px] px-[70px] rounded-[12px] max-[500px]:px-[20px]"
+        >
+          <h1
+            class="text-[#ff9b04] text-[80px] font-[900] max-[835px]:text-[50px] max-[520px]:text-[30px] max-[425px]:text-center"
+          >
+            GrandLesMarket
+          </h1>
+          <h3
+            class="text-[50px] text-[#2a1a01] font-[600] max-[770px]:text-[30px] max-[560px]:text-[20px] max-[425px]:text-center"
+          >
+            магазин пиломатериалов
+          </h3>
+          <p
+            class="text-[16px] font-[400] text-[#222] max-w-[1203px] max-[500px]:max-w-full max-[300px]:text-center"
+          >
+            Мы стремимся обеспечивать потребности самых разных заказчиков в
+            качественной древесине для разных нужд строительства. Мы постоянно
+            расширяем линейку пиломатериалов для продажи, в нашем каталоге
+            представлены
+            <span class="max-[425px]:hidden"
+              >изделия с разными характеристиками и уровня качества, чтобы
+              удовлетворить любые запросы. Ведь древесина может быть очень
+              разной и использоваться по-разному.</span
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- магазин end -->
+    <section class="mt-[110px]">
+      <div class="container1">
+        <div
+          class="flex items-end justify-between max-[750px]:flex-col max-[750px]:items-center max-[750px]:gap-3"
+        >
+          <div class="">
+            <h2
+              class="font-[700] text-[34px] text-[#2a1a0] max-[486px]:text-center max-[380px]:text-[25px]"
+            >
+              Популярные товары
+            </h2>
+            <p
+              class="font-[500] text-[16px] text-[#777] max-w-[385px] max-full max-[486px]:text-center max-[380px]:text-[15px]"
+            >
+              Выбирайте пиломатериалы, которые пользуются наибольшим спросом у
+              наших клиентов
+            </p>
+          </div>
+          <button
+            class="border border-solid border-[#222] w-[240px] py-[10px] rounded-[10px] text-[13px] font-[60px] text-[#222] hover:scale-90 hover:bg-yellow-300 hover:border-none hover:text-[#fff] hover:text-[16px]"
+          >
+            Перейти в каталог
+          </button>
+        </div>
+
+        <div
+          class="flex items-center mt-[50px] gap-5 max-[742px]:flex-col w-full justify-between"
+        >
+          <!-- 1 -->
+          <div
+            class="flex items-center border rounded-[10px] max-[1400px]:flex-col"
+          >
+            <div class="px-[33px] py-[54px] w-full bg-[#f5f5f5] rounded-[10px]">
+              <img class="" src="./img/товары-1.png" alt="t" />
+            </div>
+            <div
+              class="pt-[40px] pb-[21px] pl-[10px] w-full flex flex-col gap-y-5"
+            >
+              <div class="flex items-center gap-x-3 text-[11px] font-[500]">
+                <button
+                  class="border border-solid px-[10px] py-[6px] border-[#222] rounded-[10px]"
+                >
+                  Акция
+                </button>
+                <button
+                  class="border border-solid px-[10px] py-[6px] border-[#222] rounded-[10px]"
+                >
+                  -30%
+                </button>
+              </div>
+              <div>
+                <h2 class="font-[700] text-[20px] text-[#222]">
+                  Строганая сухая доска
+                </h2>
+                <p class="text-[16px] font-[400] text-[#777]">
+                  50х150х6000 (45х140х6000)
+                </p>
+              </div>
+              <div class="flex items-center gap-x-3">
+                <p>Количество:</p>
+                <button
+                  class="border border-solid px-[15px] border-[#e0e0e0] py-[2px] text-[#e0e0e0] rounded-[8px]"
+                >
+                  <span class="">-</span>
+                </button>
+                <h3 class="w-[700] text-[16px] text-[#222]">1</h3>
+                <button
+                  class="border border-solid px-[15px] border-[#e0e0e0] py-[2px] text-[#e0e0e0] rounded-[8px]"
+                >
+                  +
+                </button>
+              </div>
+              <div
+                class="flex items-center gap-x-5 max-[350px]:gap-x-1 max-[315px]:flex-col max-[315px]:gap-[10px]"
+              >
+                <p class="text-[16px] font-[500px]">Цена за:</p>
+                <div
+                  class="flex items-center gap-x-[15px] max-[350px]:gap-x-[10px]"
+                >
+                  <button
+                    class="border border-solid p-[8px] border-[#e0e0e0] rounded-[8px] font-[500] text-[14px]"
+                  >
+                    m <sup>3</sup>
+                  </button>
+                  <button
+                    class="border border-solid py-[8px] pl-[5px] pr-[5px] border-[#e0e0e0] rounded-[8px] font-[500] text-[14px]"
+                  >
+                    шт
+                  </button>
+                </div>
+                <h2 class="font-[700] text-[16px]">
+                  17 500 ₽
+                  <sup class="line-through font-[400] text-[#777]"
+                    >25 000 ₽</sup
+                  >
+                </h2>
+              </div>
+              <div
+                class="flex items-center gap-x-[30px] max-[320px]:flex-col max-[320px]:gap-3"
+              >
+                <button
+                  class="py-[10px] px-[43px] bg-[#ff9b04] rounded-[8px] text-[#fff] font-[600] text-[13px]"
+                >
+                  В корзину
+                </button>
+                <div class="flex items-center gap-x-[7px]">
+                  <h3 class="font-[600] text-[13px] text-[#2a1a01]">
+                    Купить в 1 клик
+                  </h3>
+                  <img
+                    class="max-[348px]:hidden"
+                    src="./svg/right.svg"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 2 -->
+          <div
+            class="flex items-center border rounded-[10px] max-[1400px]:flex-col"
+          >
+            <div class="px-[33px] py-[54px] w-full bg-[#f5f5f5] rounded-[10px]">
+              <img class="" src="./img/товары-2.png" alt="t" />
+            </div>
+            <div
+              class="pt-[40px] pb-[21px] pl-[10px] w-full flex flex-col gap-y-5"
+            >
+              <div class="flex items-center gap-x-3 text-[11px] font-[500]">
+                <button
+                  class="border border-solid px-[10px] py-[6px] border-[#222] rounded-[10px]"
+                >
+                  Акция
+                </button>
+                <button
+                  class="border border-solid px-[10px] py-[6px] border-[#222] rounded-[10px]"
+                >
+                  -30%
+                </button>
+              </div>
+              <div>
+                <h2 class="font-[700] text-[20px] text-[#222]">
+                  Строганая сухая доска
+                </h2>
+                <p class="text-[16px] font-[400] text-[#777]">
+                  50х150х6000 (45х140х6000)
+                </p>
+              </div>
+              <div class="flex items-center gap-x-3">
+                <p>Количество:</p>
+                <button
+                  class="border border-solid px-[15px] border-[#e0e0e0] py-[2px] text-[#e0e0e0] rounded-[8px]"
+                >
+                  <span class="">-</span>
+                </button>
+                <h3 class="w-[700] text-[16px] text-[#222]">1</h3>
+                <button
+                  class="border border-solid px-[15px] border-[#e0e0e0] py-[2px] text-[#e0e0e0] rounded-[8px]"
+                >
+                  +
+                </button>
+              </div>
+              <div
+                class="flex items-center gap-x-5 max-[350px]:gap-x-1 max-[315px]:flex-col max-[315px]:gap-[10px]"
+              >
+                <p class="text-[16px] font-[500px]">Цена за:</p>
+                <div
+                  class="flex items-center gap-x-[15px] max-[350px]:gap-x-[10px]"
+                >
+                  <button
+                    class="border border-solid p-[8px] border-[#e0e0e0] rounded-[8px] font-[500] text-[14px]"
+                  >
+                    m <sup>3</sup>
+                  </button>
+                  <button
+                    class="border border-solid py-[8px] pl-[5px] pr-[5px] border-[#e0e0e0] rounded-[8px] font-[500] text-[14px]"
+                  >
+                    шт
+                  </button>
+                </div>
+                <h2 class="font-[700] text-[16px]">
+                  17 500 ₽
+                  <sup class="line-through font-[400] text-[#777]"
+                    >25 000 ₽</sup
+                  >
+                </h2>
+              </div>
+              <div
+                class="flex items-center gap-x-[30px] max-[320px]:flex-col max-[320px]:gap-3"
+              >
+                <button
+                  class="py-[10px] px-[43px] bg-[#ff9b04] rounded-[8px] text-[#fff] font-[600] text-[13px]"
+                >
+                  В корзину
+                </button>
+                <div class="flex items-center gap-x-[7px]">
+                  <h3 class="font-[600] text-[13px] text-[#2a1a01]">
+                    Купить в 1 клик
+                  </h3>
+                  <img
+                    class="max-[348px]:hidden"
+                    src="./svg/right.svg"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end -->
+
+    <section class="mt-[120px]">
+      <div
+        class="container1 flex justify-between items-center max-[900px]:flex-col"
+      >
+        <div class="flex flex-col gap-[40px] items-start">
+          <h2 class="text-[34px] font-[700] text-[#2a1a01]">О компании</h2>
+          <img
+            class="w-full hidden max-[900px]:block"
+            src="./img/компании.png"
+            alt=""
+          />
+          <h3
+            class="font-[500] text-[20px] text-[#222] max-[380px]:text-[16px]"
+          >
+            Компания «ГрандЛесМаркет» специализируется на продажах
+            высококачественных пиломатериалов.
+          </h3>
+
+          <div
+            class="max-w-[646px] flex flex-col gap-[30px] text-[16px] font-[400]"
+          >
+            <p>
+              Реализация осуществляется любым удобным способом: в розницу или
+              оптовыми поставками. Деятельность компании ориентирована на
+              широкий круг потребителей: крупные и небольшие строительные
+              организации, развитые торговые сети, единичные магазины
+              индивидуальных предпринимателей, а также на частных лиц.
+            </p>
+            <p>
+              Мы позиционируем себя как надежного поставщика широкого спектра
+              товаров. Представленный ассортимент соответствует действующим
+              стандартам, обеспечен технологически правильными условиями
+              хранения и транспортирования. Именно поэтому весь пиломатериал
+              имеет отличный товарный вид, сохраняет изначальные характеристики
+              и обладает стопроцентной эксплуатационной пригодностью.
+            </p>
+          </div>
+          <button
+            class="py-[20px] text-[#fff] text-[13px] font-[600] px-[60px] bg-[#ff9b04] rounded-2xl max-[900px]:w-full"
+          >
+            Подробнее о нас
+          </button>
+        </div>
+        <div class="max-[900px]:hidden">
+          <img class="w-full" src="./img/компании.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- end -->
+    <section class="mt-[110px]">
+      <div class="container1">
+        <h1
+          class="text-center max-w-[900px] m-auto text-[30px] font-[500] max-[580px]:text-[25px] max-[375px]:text-[18px]"
+        >
+          Значимое преимущество компании – выгодное сочетание безупречного
+          качества реализуемого продукта и его удивительно низкой цены.
+        </h1>
+        <div class="mt-[60px] grid grid-cols-2 gap-5 max-[905px]:grid-cols-1">
+          <div
+            class="flex items-center gap-5 bg-[#f5f5f5] p-5 rounded-3xl max-[450px]:flex-col max-[450px]:text-center"
+          >
+            <div class="bg-[#fff] px-[18px] py-[12px] rounded-[8px]">
+              <img src="./svg/icon-1.svg" alt="" />
+            </div>
+            <div class="">
+              <h3 class="text-[22px] font-[500] max-[350px]:text-[15px]">
+                На рынке с 2010 года
+              </h3>
+              <p class="text-[16px] font-[400]">
+                Более 13 лет успешной работы и сотни довольных заказчиков
+              </p>
+            </div>
+          </div>
+          <div
+            class="flex items-center gap-5 bg-[#f5f5f5] p-5 rounded-3xl max-[450px]:flex-col max-[450px]:text-center"
+          >
+            <div class="bg-[#fff] px-[18px] py-[12px] rounded-[8px]">
+              <img src="./svg/icon-2.svg" alt="" />
+            </div>
+            <div class="">
+              <h3 class="text-[22px] font-[500] max-[350px]:text-[15px]">
+                Удобные способы оплаты
+              </h3>
+              <p class="text-[16px] font-[400]">
+                Возможность оплаты товара наличным и по безналичному расчету
+              </p>
+            </div>
+          </div>
+          <div
+            class="flex items-center gap-5 bg-[#f5f5f5] p-5 rounded-3xl max-[450px]:flex-col max-[450px]:text-center"
+          >
+            <div class="bg-[#fff] px-[18px] py-[12px] rounded-[8px]">
+              <img src="./svg/icon-3.svg" alt="" />
+            </div>
+            <div class="">
+              <h3 class="text-[22px] font-[500] max-[350px]:text-[15px]">
+                Широкий ассортимент
+              </h3>
+              <p class="text-[16px] font-[400]">
+                Полный набором всех возможных изделий из натурального деревау
+              </p>
+            </div>
+          </div>
+          <div
+            class="flex items-center gap-5 bg-[#f5f5f5] p-5 rounded-3xl max-[450px]:flex-col max-[450px]:text-center"
+          >
+            <div class="bg-[#fff] px-[18px] py-[12px] rounded-[8px]">
+              <img src="./svg/icon-4.svg" alt="" />
+            </div>
+            <div class="">
+              <h3 class="text-[22px] font-[500] max-[350px]:text-[15px]">
+                Свой автопарк
+              </h3>
+              <p class="text-[16px] font-[400]">
+                Приобретая пиломатериал у нас, не стоит волноваться о его
+                перевозке
+              </p>
+            </div>
+          </div>
+          <div
+            class="flex items-center gap-5 bg-[#f5f5f5] p-5 rounded-3xl max-[450px]:flex-col max-[450px]:text-center"
+          >
+            <div class="bg-[#fff] px-[18px] py-[12px] rounded-[8px]">
+              <img src="./svg/icon-5.svg" alt="" />
+            </div>
+            <div class="">
+              <h3 class="text-[22px] font-[500] max-[350px]:text-[15px]">
+                Гибкая система скидок
+              </h3>
+              <p class="text-[16px] font-[400]">
+                Позволяет нашим клиентам экономить значительные суммы
+              </p>
+            </div>
+          </div>
+          <div
+            class="flex items-center gap-5 bg-[#f5f5f5] p-5 rounded-3xl max-[450px]:flex-col max-[450px]:text-center"
+          >
+            <div class="bg-[#fff] px-[18px] py-[12px] rounded-[8px]">
+              <img src="./svg/icon-6.svg" alt="" />
+            </div>
+            <div class="">
+              <h3 class="text-[22px] font-[500] max-[350px]:text-[15px]">
+                Собственный склад
+              </h3>
+              <p class="text-[16px] font-[400]">
+                Площадь 3000 м2 позволяет держать в наличии огромный ассортимент
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end -->
+    <section class="Калькулятор mt-[120px]" >
+      <div class="container1">
+        <div class="bg-[#f5f5f5] flex gap-[45px] pr-[20px] pt-[20px]">
+          <div><img src="./img/girl.png" alt="" /></div>
+          <div class="bg-[#fff] ">
+            <h2>Калькулятор пиломатериалов</h2>
+            <div>
+              <div>
+                <p>Категория</p>
+                <select class="bg-transparent border p-[10px_30px] text-[#fff] ">
+                  <option value="Доска">Доска</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
